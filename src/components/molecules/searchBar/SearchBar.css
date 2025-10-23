@@ -1,0 +1,21 @@
+.searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 8px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.btn {
+    max-height: 50px;
+    background-color:#ff0080;
+    border-radius: 15px;
+    gap: 10px;
+    color: white;
+    border-color: 2px gray;
+}

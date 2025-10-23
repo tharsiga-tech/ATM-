@@ -1,0 +1,42 @@
+.atm-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  border-color: #ea4296;
+}
+
+.card {
+  background: linear-gradient(135deg, #f075b2, #f17d7d);
+  border-radius: 40px;
+  width: 220px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  outline: none !important;
+
+}
+
+.highlight {
+  background: linear-gradient(135deg, #ea4296, #ea6161);
+}
+
+.card h2 {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+}

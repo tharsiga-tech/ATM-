@@ -1,0 +1,31 @@
+// import { Navigate, Route, Routes } from 'react-router-dom';
+// import LoginPage from '../../../pages/loginPage/LoginPage';
+// import HomePage from '../../../pages/homePage/HomePage';
+// import ProfilePage from '../../../pages/profilePage/ProfilePage';
+// import { AuthContext } from '../../../assets/context/AuthContext';
+// import { useContext } from 'react';
+
+// const AppRoutes = () => {
+//     const {isAuthenticated} : any = useContext(AuthContext);
+//   return (
+//     <Routes>
+//         {!isAuthenticated ? (
+//             <>
+//                 <Route path='/login' element={<LoginPage />} />
+//                 <Route path="*" element={<Navigate to="/login" replace /> } />
+//             </>
+//         ) : (
+//             <> 
+          
+
+//             <Route path="/" element={ <HomePage/> }/>
+//             <Route path="/profile" element={ <ProfilePage/> }/>
+//             <Route path="/login" element={<Navigate to="/" replace /> } />
+//             </>
+//         ) } 
+//         </Routes>
+//         )
+// }
+
+// export default AppRoutes
+
